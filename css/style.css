@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+
+header {
+    background-color: #9FE18A;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+header img {
+    padding: 15px;
+}
+
+ul {
+    background-color: #9FE18A;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+main {
+    margin-top: 200px;
+}
+
+h1 {
+    color: #7F398C;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: indigo;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color: #9FE18A;
+    background-color: #7F398C;
+    font-family: sans-serif;
+}
+
+p {
+    color: indigo;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    background-color: #9FE18A;
+    color: indigo;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div p {
+    padding: 15px;
+    display: inline;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.ul-flex a{
+    text-decoration: none;
+}
+
+
+/* Estilos index.html */
+/* #main-index {
+margin-top: 150px;
+} */
+
+section div article {
+    padding: 30px;
+}
+
+section div article h3 {
+    margin: 15px;
+    padding: 15px;
+}
+
+.imagen-inicio {
+    width: 400px;
+}
+
+.parrafo-provisorio {
+    color: cornsilk;
+    font-size: 22px;
+}
+
+.negrita {
+    font-weight: bolder;
+}
+
+.grid-index{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,1fr );
+    grid-template-areas:
+    "imagen-inicio h1-index"
+    "imagen-inicio parrafo-1-index"
+    "imagen-inicio parrafo-1-index"
+    "imagen-inicio parrafo-1-index";
+}
+
+.imagen-inicio{
+grid-area: imagen-inicio;
+}
+
+.h1-index{
+    grid-area: h1-index;
+
+}
+
+.parrafo-1-index{
+    grid-area: parrafo-1-index;
+
+}
+
+.texto-promocion {
+    background-color: #9FE18A;
+}
+
+.div-opiniones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilos sobre-nosotros.html */
+
+.imagen-sobre-nosotros {
+    width: 400px;
+}
+
+/* Estilos planes.html */
+
+.imagen-planes {
+    width: 350px;
+}
+
+.imagen-plan-cien {
+    width: 180px;
+}
+
+.imagen-plan-doscientos {
+    width: 250px;
+}
+
+.imagen-plan-trescientos {
+    width: 230px;
+}
+
+/* Estilos servicios.html */
+
+.imagen-servicios {
+    width: 400px;
+}
+
+/* Estilos contacto.html */
+
+
+#main-contacto {
+    background-image: url(https://thumbs.dreamstime.com/b/huellas-en-violeta-y-rosa-impresiones-un-patr%C3%B3n-de-fondo-sin-inconvenientes-233873629.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 375px){
+
+}
